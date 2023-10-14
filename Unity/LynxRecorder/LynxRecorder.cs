@@ -362,7 +362,7 @@ namespace Lynx
             }
         }
 
-        private void StartRecord()
+        public void StartRecord()
         {
             recording = true;
 
@@ -408,7 +408,7 @@ namespace Lynx
             videoWriterThread.Start();
         }
 
-        private void EndRecord()
+        public void EndRecord()
         {
             recording = false;
             
