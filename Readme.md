@@ -12,11 +12,9 @@ This is a Unity plugin for Lynx that allows you to record video with passthrough
 - [License](#license)
 
 ## Features
-- Record video frames with different capture types: AR, VR, or PassthroughOnly.
 - Adjustable frame rate for video recording.
-- Utilizes passthrough and VR frames for recording.
-- Real-time video frame composition for different capture types.
-- Asynchronous GPU readback support for VR capture.
+- Real-time video frame composition for VR, AR or Passthrough Only.
+- Multithreading Architecture which doesn't slow the usage of your app.
 
 ## Usage
 1. Open a project which can build on the Lynx.
@@ -26,6 +24,7 @@ This is a Unity plugin for Lynx that allows you to record video with passthrough
 5. Configure the parameters in the Unity Inspector (see the [Configuration](#configuration) section below for details).
 6. Enable PressTopRightButtonToRecord and press the top button in your app, __OR__ call StartRecord/EndRecord from one of your scripts, when you need to.
 7. The recorded video will be saved as an MP4 file in the persistent data path of your Unity project. (Android/data/[app_name]/files)
+   You can access your Lynx files by using the command : `adb shell svc usb setFunctions mtp` after plugging the USB.
 
 ## Configuration
 ### Inspector Parameters
