@@ -18,14 +18,6 @@ This is a Unity plugin for Lynx that allows you to record video with passthrough
 - Real-time video frame composition for different capture types.
 - Asynchronous GPU readback support for VR capture.
 
-## Installation
-To use the Lynx Recorder plugin in your Unity project, follow these steps:
-
-1. Import the Lynx Unity Plugin, as this script relies on it.
-2. Copy the `LynxRecorder.cs` script into your Unity project's scripts folder.
-3. Attach the `LynxRecorder` script to the Unity GameObject you want to use for video recording.
-4. Configure the script parameters in the Unity Inspector.
-
 ## Usage
 1. Open a project which can build on the Lynx.
 2. Import Unity3D Previews SDK in your project (Samples should not be needed), and __DISABLE DEVELOPMENT BUILD__.
