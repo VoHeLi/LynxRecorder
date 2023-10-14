@@ -8,7 +8,7 @@ This is a Unity plugin for Lynx that allows you to record video with passthrough
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Contributors](#contributors)
+- [Known Issues](#known-issues)
 - [License](#license)
 
 ## Features
@@ -42,7 +42,7 @@ To use the Lynx Recorder plugin in your Unity project, follow these steps:
 - **Recording Camera:** Optionally specify a camera to be used for VR image capture.
 - **Press Top Right Button to Record:** If enabled, you can start and stop recording by pressing the specified button.
 
-##Known Issues
+## Known Issues
 - Time distorsion if the fps are too high.
 - Record -> Sleep -> Record makes the app crashes.
 
