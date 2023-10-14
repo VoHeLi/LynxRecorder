@@ -37,14 +37,14 @@ To use the Lynx Recorder plugin in your Unity project, follow these steps:
 
 ## Configuration
 ### Inspector Parameters
-- **FPS:** Set the frame rate for video recording, ranging from 1 to 30 frames per second.
+- **FPS:** Set the frame rate for video recording, ranging from 1 to 30 frames per second. (Avoid going >20fps)
 - **Capture Type:** Choose from three capture types: AR, VR, or PassthroughOnly.
 - **Recording Camera:** Optionally specify a camera to be used for VR image capture.
 - **Press Top Right Button to Record:** If enabled, you can start and stop recording by pressing the specified button.
 
-## Contributors
-- [Your Name]
-- [Other Contributors]
+##Known Issues
+- Time distorsion if the fps are too high.
+- Record -> Sleep -> Record makes the app crashes.
 
 ## License
 This Lynx Recorder Unity Plugin is released under the [CC0 (Creative Commons Zero) License](LICENSE.md). You are free to use, modify, and distribute the code without any restrictions.
